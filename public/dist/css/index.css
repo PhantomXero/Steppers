@@ -1,0 +1,14 @@
+.hero {
+  background-color: #1F2937;
+}
+
+.hero_title {
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=index.css.map */
