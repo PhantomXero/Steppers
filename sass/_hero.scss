@@ -3,14 +3,31 @@
 .hero
 {
     background-color: $drk-bkg;
+    padding: 1rem 8rem 5rem 8rem;
+
+    color: $hero_hdr-clr;
 }
 .header
 {
-    
+    display: flex;
+    justify-content: space-between;
+}
+.header_links
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo
+{
+    padding-top: 0.5rem;
+    font-weight: $txt-bold;
 }
 .hero_container
 {
-
+    display: flex;
+    margin-top: 3rem;
 }
 .content
 {
@@ -19,10 +36,18 @@
 .hero_title
 {
     font-weight: $txt-bold;
-    color: $hero_hdr-clr;
-    
+    margin-bottom: 0;
 }
 .hero_subtext
 {
-
+    width: 50%;
+}
+.hero_image
+{
+    height: 35vh;
+    width: 90vw;
+    background-image: url("/img/pexels-adrian-dorobantu-2300334.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
 }

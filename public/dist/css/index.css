@@ -1,14 +1,92 @@
+.btn {
+  color: #F9FAF8;
+  border-style: none;
+  background-color: #3882F6;
+  padding: 0.4rem 1.2rem;
+  border-radius: 5px;
+}
+
+.call .btn {
+  border-color: #F9FAF8;
+}
+
+footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+  color: #F9FAF8;
+}
+
 .hero {
   background-color: #1F2937;
+  padding: 1rem 8rem 5rem 8rem;
+  color: #F9FAF8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo {
+  padding-top: 0.5rem;
+  font-weight: bolder;
+}
+
+.hero_container {
+  display: flex;
+  margin-top: 3rem;
 }
 
 .hero_title {
   font-weight: bolder;
-  color: #F9FAF8;
+  margin-bottom: 0;
+}
+
+.hero_subtext {
+  width: 50%;
+}
+
+.hero_image {
+  height: 35vh;
+  width: 90vw;
+  background-image: url("/img/pexels-adrian-dorobantu-2300334.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+}
+
+.quote {
+  width: 100vw;
+  height: 40vh;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-style: italic;
+  font-size: 36px;
+  padding: 10rem;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bolder;
 }/*# sourceMappingURL=index.css.map */

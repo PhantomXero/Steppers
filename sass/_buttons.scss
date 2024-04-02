@@ -1,1 +1,18 @@
 @import "variables";
+
+.btn
+{
+    color: $white-clr;
+    border-style: none;
+    background-color: $blue-clr;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+}
+
+.call
+{
+    .btn
+    {
+        border-color: $white-clr;
+    }
+}
