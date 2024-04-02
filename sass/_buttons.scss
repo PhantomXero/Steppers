@@ -11,8 +11,13 @@
 
 .call
 {
-    .btn
+    button
     {
-        border-color: $white-clr;
+        border-color: $white-clr 5px solid;
     }
+}
+
+.btn:hover
+{
+    cursor: pointer;
 }
