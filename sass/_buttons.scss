@@ -11,7 +11,7 @@
 
 .call
 {
-    button
+    .btn
     {
         border-color: $white-clr 5px solid;
     }
@@ -21,3 +21,8 @@
 {
     cursor: pointer;
 }
+
+.br
+    {
+        border: $white-clr 5px solid;
+    }
