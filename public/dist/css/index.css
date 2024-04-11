@@ -6,8 +6,21 @@
   border-radius: 5px;
 }
 
-.call button {
-  border-color: #F9FAF8 5px solid;
+.call .btn {
+  border: #F9FAF8 2px solid;
+  height: 5vh;
+  width: 7vw;
+}
+.call .btn:hover {
+  color: #3882F6;
+  border-style: none;
+  background-color: #F9FAF8;
+  padding: 0.4rem 1.2rem;
+  border-radius: 5px;
+  border: #3882F6 2px solid;
+  height: 5vh;
+  width: 7vw;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -27,10 +40,17 @@
   width: 70vw;
   height: 20vh;
   border-radius: 5px;
+  padding: 1rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   color: #F9FAF8;
   background-color: #3882F6;
+  margin-right: 9rem;
+}
+
+.call-content {
+  width: 75%;
 }
 
 .card {
@@ -51,25 +71,11 @@
   text-align: center;
 }
 
-.i1 {
-  background-image: url("/img/pexels-scott-webb-137603.jpg");
-}
-
-.i2 {
-  background-image: url("/img/pexels-melvin-buezo-2529148.jpg");
-}
-
-.i3 {
-  background-image: url("/img/pexels-jordan-hyde-1032110.jpg");
-}
-
-.i4 {
-  background-image: url("/img/pexels-frans-van-heerden-847371.jpg");
-}
-
 .cardHolder {
   width: 100vw;
   height: 50vh;
+  padding: 2rem;
+  padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,6 +104,7 @@ footer {
   background-color: #1F2937;
   padding: 1rem 8rem 5rem 8rem;
   color: #F9FAF8;
+  height: 100vh;
 }
 
 .header {
@@ -129,15 +136,16 @@ footer {
 }
 
 .hero_subtext {
-  width: 50%;
+  width: 70%;
 }
 
 .hero_image {
-  height: 35vh;
-  width: 90vw;
+  height: 45vh;
+  width: 165vw;
   background-image: url("/img/pexels-adrian-dorobantu-2300334.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 2rem;
 }
 

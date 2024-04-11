@@ -13,7 +13,24 @@
 {
     .btn
     {
-        border-color: $white-clr 5px solid;
+        border: $white-clr 2px solid;
+        height: 5vh;
+        width: 7vw;
+    }
+
+    .btn:hover
+    {
+        color: $blue-clr;
+        border-style: none;
+        background-color: $white-clr;
+        padding: 0.4rem 1.2rem;
+        border-radius: 5px;
+
+        border: $blue-clr 2px solid;
+        height: 5vh;
+        width: 7vw;
+
+        cursor: pointer;
     }
 }
 
@@ -21,8 +38,3 @@
 {
     cursor: pointer;
 }
-
-.br
-    {
-        border: $white-clr 5px solid;
-    }

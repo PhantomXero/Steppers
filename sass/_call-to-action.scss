@@ -4,7 +4,8 @@
 {
     width: 100vw;
     height: 40hv;
-    padding: 5rem;
+    padding: 5rem; 
+    
 
     display: flex;
     justify-content: center;
@@ -16,10 +17,18 @@
     width: 70vw;
     height: 20vh;
     border-radius: 5px;
+    padding: 1rem;
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     color: $white-clr;
     background-color: $blue-clr;
+    margin-right: 9rem; 
+}
+
+.call-content
+{
+    width: 75%;
 }
