@@ -21,7 +21,7 @@
   display: block;
   width: 200px;
   height: 75px;
-  background-image: url("img/steppers-high-resolution-logo.png");
+  background-image: url("/img/steppers-high-resolution-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
@@ -68,7 +68,7 @@ a:hover::after,
      =========================== */
 
 .hero {
-  background-image: url("img/pexels-adrian-dorobantu-2300334.jpg");
+  background-image: url("/img/pexels-adrian-dorobantu-2300334.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
