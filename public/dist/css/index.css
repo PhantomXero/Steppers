@@ -21,7 +21,7 @@
   display: block;
   width: 160px;
   height: 48px;
-  background-image: url("img/steppers-high-resolution-logo.png");
+  background-image: url("/img/steppers-high-resolution-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
